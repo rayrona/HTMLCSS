@@ -1,0 +1,66 @@
+@font-face {
+    font-family: nunito;
+    src: url('../fonts/Nunito-Bold.ttf');
+}
+
+.fitur {
+    background: blue;
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to left, red, blue);
+    height: 550px;
+}
+
+body {
+    margin: 0;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: nunito;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.container {
+    overflow: hidden;
+    width: 70%;
+    margin: auto;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    display: block;
+    font-size: 18px;
+    font-family: arial;
+}
+
+.header .navigation li a {
+    color: white;
+    text-decoration: none;
+}
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.icon-kelas {
+    width: 250px;
+    height: 250px;
+    background-image: url('../images/gambar.jpg');
+    background-size: cover;
+    border-radius: 100px;
+}
+
+.parent {
+    margin-top: 100px;
+}
